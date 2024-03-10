@@ -50,7 +50,7 @@ const Card = () => {
 				{error && (
 					<p className="card__error">There was an error. Please try again.</p>
 				)}
-				<p className="card__advice">{message.message}</p>
+				<p className="card__advice">{`"${message.message}"`}</p>
 				<picture className="divider">
 					<source srcSet={decorativeImgDesktop} media="(min-width: 550px)" />
 					<img src={decorativeImgMobile} alt="" />
