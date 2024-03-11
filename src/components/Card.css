@@ -59,11 +59,6 @@
 	transform: translateX(-50%);
 }
 
-.card__btn:hover {
-	box-shadow: 0 0 2rem var(--neon-green);
-	cursor: pointer;
-}
-
 .btnImage {
 	display: block;
 	margin: auto;
@@ -85,5 +80,9 @@
 	}
 	.divider {
 		margin-bottom: 2.2rem;
+	}
+	.card__btn:hover {
+		box-shadow: 0 0 2rem var(--neon-green);
+		cursor: pointer;
 	}
 }
