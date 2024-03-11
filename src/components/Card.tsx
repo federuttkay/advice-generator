@@ -43,7 +43,7 @@ const Card = () => {
 	return (
 		<section className="card">
 			<div className="card__content grid" key={refreshNumber}>
-				<h2 className="card__title">advice #{!isLoading && message.id}</h2>
+				<h2 className="card__title">advice {!isLoading && `#${message.id}`}</h2>
 				{isLoading && <p className="card__loading">Loading...</p>}
 				{error && (
 					<p className="card__error">There was an error. Please try again.</p>
